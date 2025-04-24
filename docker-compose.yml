@@ -2,7 +2,7 @@ services:
   3x-ui:
     image: ghcr.io/mhsanaei/3x-ui:latest
     container_name: 3x-ui
-    hostname: yourhostname
+    hostname: neva.0newrt.my.id
     ports:
       - "8081:80"            # Map port container 80 ke host port 8080
       - "8441:443"           # Map port container 443 ke host port 8443
