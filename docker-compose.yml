@@ -1,8 +1,8 @@
 services:
   3x-ui:
     image: ghcr.io/mhsanaei/3x-ui:latest
-    container_name: 3x-ui
-    hostname: neva.0newrt.my.id
+    container_name: one-ui
+    hostname: atha.0newrt.my.id
     volumes:
       - $PWD/db/:/etc/x-ui/
       - $PWD/cert/:/root/cert/
